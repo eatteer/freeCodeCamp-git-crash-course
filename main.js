@@ -5,5 +5,5 @@ const deleteNumberFromArray = (numberToDelete) => {
 }
 
 const addNumberToArray = (number) => {
-  return [...numbers, number]
+  return numbers.concat(number)
 }
